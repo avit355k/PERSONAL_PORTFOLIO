@@ -410,7 +410,12 @@ h3.My-profession {
     border-radius: 5%;
 
 }
-
+@media (max-width:576px){
+    .home .hello span {
+        display: block;
+        /* Moves span to a new line on small screens */
+    }
+}
 /*homepage end*/
 
 /*About Page*/
@@ -464,6 +469,7 @@ h3.My-profession {
     margin-left: 4px;
     display: inline-block;
 }
+
 /* ========== Education Section ========== */
 .about .about-content .education {
     flex: 0 0 100%;
@@ -530,7 +536,8 @@ h3.My-profession {
 .about .about-content .education .circle-dot {
     position: absolute;
     left: 0;
-    top: 30px; /* This aligns it with the first line of text (edu-institute) */
+    top: 30px;
+    /* This aligns it with the first line of text (edu-institute) */
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -1292,7 +1299,6 @@ h3.My-profession {
         text-align: center;
         /* Ensure text is centered */
     }
-
     .home .home-info {
         flex: 0 0 100%;
         max-width: 100%;
