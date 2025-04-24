@@ -80,7 +80,7 @@ document.querySelector('.hire-me').addEventListener('click', function () {
 // download cv button
 document.getElementById('downloadCvBtn').addEventListener('click', function () {
     const link = document.createElement('a');
-    link.href = './asset/somnath_kar_resume.pdf';
+    link.href = './asset/AVIJIT_RESUME.pdf';
     link.download = 'Avijit_Rakshit_CV.pdf'; // Optional: Name the downloaded file
     link.click(); // Simulate a click to trigger the download
 });
